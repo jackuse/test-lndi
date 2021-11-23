@@ -17,4 +17,4 @@ jobs:
         with:
           args: deploy --only hosting
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LNDI_TEST }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_DEPLOY }}
